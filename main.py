@@ -5,8 +5,6 @@ import streamlit as st
 #import time
 #from dotenv import load_dotenv
 #load_dotenv()
-#import os
-
 
 # ChatOpenAI model 초기화
 llm = ChatOpenAI(model="gpt-4o-mini")
