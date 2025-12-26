@@ -2,10 +2,10 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 import streamlit as st
-import time
-from dotenv import load_dotenv
-load_dotenv()
-import os
+#import time
+#from dotenv import load_dotenv
+#load_dotenv()
+#import os
 
 
 # ChatOpenAI model 초기화
@@ -33,6 +33,6 @@ st.write("시의 주제는 " + content)
 # 시 작성 버튼
 if st.button("시 작성 요청하기"):
     with st.spinner("시를 작성중입니다...", show_time=True):
-        time.sleep(5)
+        #time.sleep(5)
         result = chain.invoke({"input": content + "에 대한 시를 써줘"})
         st.write(result)
