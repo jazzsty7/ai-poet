@@ -1,4 +1,4 @@
-from langchain.chat_models import init_chat_model
+from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 import streamlit as st
@@ -9,7 +9,7 @@ import os
 
 
 # ChatOpenAI model 초기화
-llm = init_chat_model(model="gpt-4o-mini", model_provider="openai", api_key=os.getenv("OPENAI_API_KEY"))
+llm = ChatOpenAI(model="gpt-4o-mini")
 
 # ChatPromptTemplate 초기화
 prompt = ChatPromptTemplate.from_messages([
