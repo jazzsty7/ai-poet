@@ -5,8 +5,6 @@ import streamlit as st
 #import time
 #from dotenv import load_dotenv
 #load_dotenv()
-#api_key = st.secrets["OPENAI_API_KEY"]
-#st.write("api_key:", api_key)
 
 # ChatOpenAI model 초기화
 llm = ChatOpenAI(model="gpt-4o-mini")
