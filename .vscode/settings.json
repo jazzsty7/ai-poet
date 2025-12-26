@@ -1,0 +1,11 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\jazzsty\\miniconda3\\envs\\langchain\\python.exe",
+    "python.analysis.extraPaths": [
+        "C:\\Users\\jazzsty\\miniconda3\\envs\\langchain\\Lib\\site-packages",
+        "C:\\Users\\jazzsty\\AppData\\Roaming\\Python\\Python312\\site-packages"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticMode": "workspace"
+}
+
